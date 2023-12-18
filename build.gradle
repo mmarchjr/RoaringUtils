@@ -49,15 +49,15 @@ publishing {
                 }
                 developers {
                     developer {
-                        id = 'nowshad-hasan'
-                        name = 'Nowshad Hasan'
-                        email = 'nowshadapu@gmail.com'
+                        id = 'mmarchjr'
+                        name = 'Michael Marchiniak'
+                        email = 'mmarchiniakjr@hotmail.com'
                     }
                 }
                 scm {
-                    connection = 'scm:git:git:github.com/nowshad-hasan/solid-potato.git'
-                    developerConnection = 'scm:git:ssh://github.com/nowshad-hasan/solid-potato.git'
-                    url = 'https://github.com/nowshad-hasan/solid-potato'
+                    connection = 'scm:git:git:github.com/mmarchjr/RoaringUtils.git'
+                    developerConnection = 'scm:git:ssh://github.com/mmarchjr/RoaringUtils.git'
+                    url = 'https://github.com/mmarchjr/RoaringUtils'
                 }
             }
         }
