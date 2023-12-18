@@ -4,5 +4,6 @@
 # Ignore Gradle build output directory
 build
 
-secret-key.gpg
-gradle.properties
+*.gpg
+*.properties
+*.asc

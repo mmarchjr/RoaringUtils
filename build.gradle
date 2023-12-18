@@ -11,7 +11,7 @@ sourceSets {
     }
 }
 
-group 'io.github.nowshad-hasan' // your group id
+group 'io.github.mmarchjr' // your group id
 version '1.0.3'
 
 repositories {
@@ -29,15 +29,14 @@ publishing {
 
         mavenJava(MavenPublication) {
 
-            groupId = 'io.github.nowshad-hasan'
-            artifactId = 'solid-potato'
+            groupId = 'io.github.mmarchjr'
+            artifactId = 'roaringutils'
             version = '1.0.3'
             from components.java
 
             pom {
                 name = 'RoaringUtils'
-                description = 'Solid Potato is a fun project which is created to make the tutorial - ' +
-                        'How to Create A Java Library and Publish It To Maven With Gradle-7'
+                description = 'A set of utilities to spped up programming for our FRC team.'
                 url = 'https://github.com/mmarchjr/RoaringUtils'
                 inceptionYear = '2023'
 
@@ -77,6 +76,8 @@ publishing {
 
 signing {
     sign publishing.publications.mavenJava
+    sign configurations.archives
+
 }
 
 
@@ -85,3 +86,4 @@ javadoc {
         options.addBooleanOption('html5', true)
     }
 }
+
